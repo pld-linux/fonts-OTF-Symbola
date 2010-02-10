@@ -11,6 +11,7 @@ Group:		Fonts
 Source0:	http://users.teilar.gr/~g1951d/Symbola%{_ver}.zip
 # Source0-md5:	06554e9d579a954221f24b1842306fc5
 URL:		http://users.teilar.gr/~g1951d/
+BuildRequires:	iconv
 BuildRequires:	unzip
 Requires(post,postun):	fontpostinst
 BuildArch:	noarch
